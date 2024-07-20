@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Suplementos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Dynamic Suplementos</h1>
+            <nav class="barra-nav">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#sobre-a-loja">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#produtos">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="banner" id="carousel-imagens">
+        <img src="./imagem/banner1.png" alt="banner 1">
+        <img src="./imagem/banner2.webp" alt="banner 2">
+        <img src="./imagem/banner3.webp" alt="banner 3">
+    </div>
+
+    <!-- Seção Sobre a Loja -->
+    <section id="#sobre-a-loja" class="sobre">
+        <div class="container container-flex">
+            <div class="sobre-texto">
+                <h2>Sobre a Loja</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus consequat neque, non
+                    viverra ante. Nulla ac lectus nisl. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia
+                    doloribus sapiente nihil maiores, labore aperiam veritatis nemo accusamus hic cumque, debitis,
+                    asperiores omnis. Aliquid iure modi ab sint nam.</p>
+            </div>
+            <div class="sobre-imagem">
+                <img src="./imagem/sistema-para-loja-de-suplementos.png" alt="Imagem da Loja">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-lista">
+                <!-- Produto 1 -->
+                <div class="produto">
+                    <img src="./imagem/whey protein.webp" alt="Produto 1">
+                    <h3>Whey Protein</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, exercitationem.
+                        Consectetur, in debitis facilis quos cupiditate deserunt magni</p>
+                    <button class="btn-adicionar" type="button">Adicionar ao Carrinho</button>
+                </div>
+                <!-- Produto 2 -->
+                <div class="produto">
+                    <img src="./imagem/creatina.jpg" alt="Produto 2">
+                    <h3>Creatina</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, exercitationem.
+                        Consectetur, in debitis facilis quos cupiditate deserunt magni</p>
+                    <button class="btn-adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <!-- Produto 3 -->
+                <div class="produto">
+                    <img src="./imagem/multivitaminico.webp" alt="Produto 3">
+                    <h3>Multivitamínico</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, exercitationem.
+                        Consectetur, in debitis facilis quos cupiditate deserunt magni</p>
+                    <button class="btn-adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <!-- Produto 4 -->
+                <div class="produto">
+                    <img src="./imagem/bcaa.webp" alt="Produto 4">
+                    <h3>BCAA</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, exercitationem.
+                        Consectetur, in debitis facilis quos cupiditate deserunt magni</p>
+                    <button class="btn-adicionar">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="produto-interesse"> Produto de Interesse:</label>
+                    <input type="text" id="produto-interesse" name="produtoDeInteresse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                <button class="btn-adicionar" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2024 ©️copy Dynamic Suplementos - Todos os direitos reservados
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./jquery.mask.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="./messages_pt_BR.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
